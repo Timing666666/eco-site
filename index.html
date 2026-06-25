@@ -3,34 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>環境保護推廣網站</title>
-  <link rel="stylesheet" href="./style.css">
+  <meta name="description" content="綠行動公益協會推動減塑、節能減碳與資源回收，邀請你一起讓永續生活成為日常。">
+  <title>綠行動公益協會｜環境保護推廣網站</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>一起守護地球</h1>
-    <p>從減塑、節能、回收開始，讓生活更永續。</p>
+  <header class="site-header">
+    <nav class="navbar" aria-label="主要導覽">
+      <a class="brand" href="#top" aria-label="回到首頁">
+        <span class="brand-mark" aria-hidden="true">葉</span>
+        <span>綠行動公益協會</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+        <span class="sr-only">開啟導覽選單</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="primary-menu">
+        <li><a href="#actions">環保行動</a></li>
+        <li><a href="#impact">環保數據</a></li>
+        <li><a href="#join">參與我們</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>減塑行動</h2>
-      <p>自備環保杯、購物袋，減少一次性塑膠。</p>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">讓永續生活成為每一天的選擇</p>
+        <h1 id="hero-title">一起守護土地、海洋與下一代的未來</h1>
+        <p class="hero-text">我們透過環境教育、社區行動與企業倡議，推動減塑、節能減碳與資源回收，讓每個人的小改變累積成城市的綠色力量。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#join">加入行動</a>
+          <a class="button secondary" href="#actions">了解方案</a>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>節能減碳</h2>
-      <p>關燈、省電、搭乘大眾運輸，降低碳排放。</p>
+    <section class="section actions-section" id="actions" aria-labelledby="actions-title">
+      <div class="section-heading">
+        <p class="eyebrow">三個日常起點</p>
+        <h2 id="actions-title">環保行動卡片</h2>
+        <p>從生活中最容易開始的選擇出發，讓環境保護不只是口號，而是能被實踐、分享與延續的習慣。</p>
+      </div>
+      <div class="action-grid">
+        <article class="action-card">
+          <div class="card-icon" aria-hidden="true">減</div>
+          <h3>減塑</h3>
+          <p>自備水壺、餐具與購物袋，減少一次性塑膠用品，降低海洋與土地的長期負擔。</p>
+        </article>
+        <article class="action-card">
+          <div class="card-icon" aria-hidden="true">碳</div>
+          <h3>節能減碳</h3>
+          <p>選擇大眾運輸、隨手關燈、提高能源效率，讓日常消耗轉化為更低碳的生活模式。</p>
+        </article>
+        <article class="action-card">
+          <div class="card-icon" aria-hidden="true">循</div>
+          <h3>資源回收</h3>
+          <p>做好分類、清潔與再利用，讓物品回到循環系統，延長資源生命並減少焚化與掩埋。</p>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>資源回收</h2>
-      <p>做好垃圾分類，讓資源重新被利用。</p>
+    <section class="impact-section" id="impact" aria-labelledby="impact-title">
+      <div class="impact-inner">
+        <div>
+          <p class="eyebrow">行動累積影響</p>
+          <h2 id="impact-title">環保數據</h2>
+          <p>每一場講座、每一個回收站、每一次社區合作，都是讓城市更接近永續的重要一步。</p>
+        </div>
+        <div class="stats-grid" aria-label="環保推廣成果數據">
+          <div class="stat-item">
+            <strong>18,000+</strong>
+            <span>人次參與環境教育</span>
+          </div>
+          <div class="stat-item">
+            <strong>42%</strong>
+            <span>合作社區減少一次性塑膠</span>
+          </div>
+          <div class="stat-item">
+            <strong>86</strong>
+            <span>處資源回收推廣據點</span>
+          </div>
+          <div class="stat-item">
+            <strong>120t</strong>
+            <span>估計年度碳排減量</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="join" aria-labelledby="join-title">
+      <div class="cta-content">
+        <p class="eyebrow">現在開始</p>
+        <h2 id="join-title">讓你的選擇，成為環境改變的力量</h2>
+        <p>無論是成為志工、邀請我們到校園或社區分享，或支持一場環境教育活動，都能讓更多人看見永續生活的可能。</p>
+        <a class="button primary" href="#contact">聯絡我們</a>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading align-left">
+        <p class="eyebrow">聯絡我們</p>
+        <h2 id="contact-title">一起規劃下一場綠色行動</h2>
+        <p>歡迎學校、社區、企業與公益夥伴與我們合作，推動更貼近日常的環境保護方案。</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-card">
+          <h3>綠行動公益協會</h3>
+          <p>台北市中正區森林路 66 號</p>
+          <p><a href="mailto:hello@greenaction.org.tw">hello@greenaction.org.tw</a></p>
+          <p><a href="tel:+886223456789">02-2345-6789</a></p>
+        </div>
+        <form class="contact-form" aria-label="聯絡表單">
+          <label for="name">姓名</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="請輸入姓名">
+
+          <label for="email">電子信箱</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="請輸入電子信箱">
+
+          <label for="message">合作需求</label>
+          <textarea id="message" name="message" rows="5" placeholder="請簡述想推動的環保行動"></textarea>
+
+          <button class="button primary" type="submit">送出訊息</button>
+        </form>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 環境保護推廣網站</p>
+  <footer class="site-footer">
+    <p>&copy; 2026 綠行動公益協會。一起讓環境保護成為日常。</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
